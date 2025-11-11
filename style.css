@@ -60,7 +60,7 @@ nav{
 
 nav .dividir{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 
@@ -73,11 +73,11 @@ nav h2{
 }
 
 nav .dividir .categoria{
-    width: 15vh;
+    width: 13vh;
     height: 10vh;
+    margin: 1%;
     background-color: #68564b;
     display: flex;
-    margin: 0 2vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -98,25 +98,33 @@ nav .dividir .categoria{
 }
 
 .box{
-    background-color: transparent;
     width: 100%;
-    height: fit-content;
+    height: 40vh;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 
     justify-content: center;
     align-items: center;
 
     margin-top: 20px;
+
+    overflow-x: auto;
 }
 
 .box h2{
     position: relative;
-    justify-self: center;
+    justify-self: left;
     align-self: flex-start;
     color: #4A2E1F;
     margin: 0 0 0 5vh;
+}
+
+.box .linha{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
 }
 
 .card{
@@ -153,12 +161,13 @@ nav .dividir .categoria{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    padding: 0;
+    padding: 0 15px;
 }
 
 
 .card .text h3{
     color: #4A2E1F;
+    font-size: 1.1em;
 }
 .card .text p{
     color: #A08479;
@@ -236,6 +245,14 @@ dialog input[type="number"]:focus{
     border: solid 2px #4A2E1F;
 }
 
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
 
-
-
+footer h3{
+    color: #68564b;
+}
