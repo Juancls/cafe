@@ -74,7 +74,7 @@ nav h2{
 
 nav .dividir .categoria{
     width: 18vh;
-    height: 10vh;
+    height: 8vh;
     background-color: #68564b;
     display: flex;
     margin: 0 2vh;
@@ -235,5 +235,6 @@ dialog input[type="number"]{
 dialog input[type="number"]:focus{
     border: solid 2px #4A2E1F;
 }
+
 
 
