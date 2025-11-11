@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5DC;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #4A2E1F;
+}
+
+header input{
+    margin-top: 10px;
+    width: 60%;
+    height: 7vh;
+
+    border: solid 2px #A08479;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #A08479;
+    padding: 0 35px;
+    font-size: 1.2em;
+
+    background-color: #a084793a;
+
+    background-image: url(lupa.png);
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 20px;
+
+    transition: ease-in-out 600ms;
+}
+
+header input:focus{
+    background-size: 0px;
+    padding: 0 10px;
+}
+
+header input::placeholder{
+    color: #A08479;
+}
+
+nav{
+    padding: 0 30px;
+    margin: 10vh 0;
+}
+
+nav .dividir{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    height: fit-content;
+}
+
+nav h2{
+    color: #4A2E1F;
+    margin: 3vh 0;
+}
+
+nav .dividir .categoria{
+    width: 18vh;
+    height: 10vh;
+    background-color: #68564b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.categoria i{
+    font-size: 1.5em;
+    color: #ffff;
+}
+
+.categoria a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1em;
+}
+
+.box{
+    background-color: transparent;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.box h2{
+    position: relative;
+    justify-self: center;
+    align-self: flex-start;
+    color: #4A2E1F;
+    margin: 0 0 0 5vh;
+}
+
+.card{
+    background-color: #a084793a;
+    width: 90%;
+    height: 15vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px 5px;
+    margin: 5px 0;
+    border-radius: 20px;
+}
+
+.card button{
+    border: none;
+    background-color: transparent;
+    color: #A08479;
+    margin: 0 10px 0 0;
+    font-size: 1em;
+}
+
+.card button:hover{
+    color: #4A2E1F;
+}
+
+.card .text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.card .text h3{
+    color: #4A2E1F;
+}
+.card .text p{
+    color: #A08479;
+}
+.card .text h3+p{
+    text-align: justify;
+}
+
+.card img{
+    width: 12vh;
+    height: 12vh;
+    background-size: cover;
+
+    border-radius: 50%;
+}
+
+.body-sem-scroll {
+    overflow: hidden;
+}
+
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.797);
+}
+
+dialog{
+    position: relative;
+    align-self: center;
+    justify-self: center;
+
+    width: 40vh;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: #a08479e7;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 15px 0;
+}
+
+dialog button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    box-shadow: black 2px 2px 2px;
+    position: relative;
+    bottom: -10vh;
+    
+}
+
+dialog img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+dialog h3{
+    margin: 2vh 0;
+}
+
+dialog input[type="number"]{
+    width: 30%;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin: 2vh;
+}
+
+dialog input[type="number"]:focus{
+    border: solid 2px #4A2E1F;
+}
