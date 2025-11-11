@@ -60,7 +60,7 @@ nav{
 
 nav .dividir{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 
@@ -77,6 +77,7 @@ nav .dividir .categoria{
     height: 10vh;
     background-color: #68564b;
     display: flex;
+    margin: 2vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -234,3 +235,4 @@ dialog input[type="number"]{
 dialog input[type="number"]:focus{
     border: solid 2px #4A2E1F;
 }
+
