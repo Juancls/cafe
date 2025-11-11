@@ -8,6 +8,7 @@
 
 body{
     background-color: #F5F5DC;
+    overflow-x: hidden;
 }
 
 header{
@@ -256,4 +257,5 @@ footer{
 footer h3{
     color: #68564b;
 }
+
 
