@@ -120,12 +120,13 @@ nav .dividir .categoria{
     margin: 0 0 0 5vh;
 }
 
-.box .linha{
+.linha{
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0;
+    padding: 0 4vh;
+    color: #4A2E1F;
 }
 
 .card{
@@ -257,5 +258,6 @@ footer{
 footer h3{
     color: #68564b;
 }
+
 
 
