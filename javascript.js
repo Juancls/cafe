@@ -15,7 +15,6 @@ todosOsBotoes.forEach(botao => {
 
 });
 
-
 // A função agora RECEBE o card que ela deve processar
 function criarDialog(card) {
 

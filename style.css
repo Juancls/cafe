@@ -24,7 +24,7 @@ header{
 
 header input{
     margin-top: 10px;
-    width: 60%;
+    width: 70%;
     height: 7vh;
 
     border: solid 2px #A08479;
@@ -294,7 +294,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3%;
+    margin: 2%;
 }
 
 footer h3{
