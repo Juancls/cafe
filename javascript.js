@@ -52,6 +52,7 @@ function criarDialog(card) {
     const newBtn = document.createElement('button');
     newBtn.textContent = "Salvar";
     
+    newBtn.autofocus = true;
 
     newBtn.addEventListener('click', ()=>{
         document.body.classList.remove('body-sem-scroll');
