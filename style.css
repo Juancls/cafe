@@ -126,6 +126,9 @@ nav .dividir .categoria{
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0 4vh;
+}
+
+.linha h2{
     color: #4A2E1F;
 }
 
@@ -258,6 +261,7 @@ footer{
 footer h3{
     color: #68564b;
 }
+
 
 
 
