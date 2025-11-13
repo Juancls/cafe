@@ -294,8 +294,10 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: ;
     margin: 2%;
+    position: relative;
+    bottom: 0; 
 }
 
 footer h3{
