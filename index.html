@@ -16,25 +16,40 @@
         <input type="text" name="" id="" placeholder="Procurar produtos">
     </header>
 
+    <div class="carrinho">
+        <button class="btncarrinho"><i class="bi bi-basket2-fill"></i></button>
+    </div>
+
+
+
     <nav>
         <h2>Categorias</h2>
         <div class="dividir">
-            <div class="categoria">
-                <i class="bi bi-cup-hot"></i>
-                <a href="bebidasQuentes.html">Bebidas Quentes</a>
-            </div>
 
-            <div class="categoria">
-                <i class="bi bi-cup-straw"></i>
-                <a href="bebidasFrias.html">Bebidas Frias</a>
-            </div>
+            <a href="bebidasQuentes.html">
+                <button>
+                     <i class="bi bi-cup-hot"></i>
+                     <h4>Bebidas Quentes</h4>
+                </button>
+            </a>
 
-            <div class="categoria">
-                <i class="bi bi-cookie"></i>
-                <a href="comidas.html">Comidas</a>
-            </div>
+            <a href="bebidasFrias.html">
+                <button>
+                     <i class="bi bi-cup-straw"></i>
+                     <h4>Bebidas Frias</h4>
+                </button>
+            </a>
+
+            <a href="comidas.html">
+                <button>
+                     <i class="bi bi-cookie"></i>
+                     <h4>Comidas</h4>
+                </button>
+            </a>
+
         </div>
     </nav>
+
 
 <div class="linha">
     <h2>Menu Completo</h2>
@@ -46,6 +61,7 @@
         <img src="img/cafe1.png" alt="Xícara de café espresso" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Café Espresso</h3>
+            <h5 class="desc-prod" style="display: none;">descrição ingr</h5>
             <p class="desc-prod">R$ 6,50</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -55,6 +71,7 @@
         <img src="img/capucchino.png" alt="Xícara de cappuccino com espuma" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Cappuccino</h3>
+            <h5> Café espresso, leite e espuma de leite cremosa.</h5>
             <p class="desc-prod">R$ 9,00</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -64,6 +81,7 @@
         <img src="img/suco de laranja.png" alt="Copo de suco de laranja natural" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Suco de Laranja</h3>
+            <h5>descrição ingr</h5>
             <p class="desc-prod">R$ 8,00</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -73,6 +91,7 @@
         <img src="img/bolo de chocolate.png" alt="Fatia de bolo de chocolate" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Bolo de Chocolate</h3>
+            <h5>descrição ingr</h5>
             <p class="desc-prod">R$ 10,50</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -82,6 +101,7 @@
         <img src="img/croassant.png" alt="Croissant folhado clássico" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Croissant</h3>
+            <h5>descrição ingr</h5>
             <p class="desc-prod">R$ 7,50</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -91,6 +111,7 @@
         <img src="img/pao de queijo.png" alt="Porção de pães de queijo" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Pão de Queijo (Porção)</h3>
+            <h5>descrição ingr</h5>
             <p class="desc-prod">R$ 8,50</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -100,6 +121,7 @@
         <img src="img/torta de limao.png" alt="Fatia de torta de limão com merengue" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Torta de Limão</h3>
+            <h5>Torta de Limão Base crocante com recheio cremoso de limão e um toque de merengue</h5>
             <p class="desc-prod">R$ 12,00</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -109,6 +131,7 @@
         <img src="img/agua.png" alt="Garrafa de água mineral" class="img-prato">
         <div class="text">
             <h3 class="nome-prato">Água Mineral</h3>
+            <h5>Água com Gás ou Mineral.</h5>
             <p class="desc-prod">R$ 4,50</p>
         </div>
         <button class="abrir">Adicionar</button>
@@ -118,7 +141,7 @@
 
 
 <footer>
-    <h3>©Juan Cecilio Silva</h3>
+    <h3>©Shopp Café</h3>
 </footer>
     <script src="javascript.js"></script>
 </body>
