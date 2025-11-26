@@ -88,7 +88,7 @@ nav h2 {
 }
 
 nav .dividir a {
-    width: 15vh;
+    width: 25vh;
     height: 10vh;
     background-color: #68564b;
     display: flex;
@@ -151,7 +151,7 @@ nav .dividir a button i {
     height: 15vh;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -180,6 +180,7 @@ nav .dividir a button i {
     align-items: start;
     flex-direction: column;
     padding: 0 15px;
+    margin: 0 -20vh;
 }
 
 .card .text h3 {
@@ -207,8 +208,9 @@ nav .dividir a button i {
     width: 12vh;
     height: 12vh;
     background-size: cover;
-
     border-radius: 50%;
+    position: relative;
+    margin: 0 1vh 0 -10vh;
 }
 
 .body-sem-scroll {
