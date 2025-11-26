@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
     <header>
@@ -20,9 +24,12 @@
     </header>
 
     <div class="carrinho">
-        <button class="btncarrinho"><i class="bi bi-basket2-fill"></i></button>
+       <!--  <a href="carrinho.html"> -->
+            <button class="btncarrinho">
+                <i class="bi bi-basket2-fill"></i>
+            </button>
+       <!--  </a> -->
     </div>
-
 
     <nav>
         <h2>Categorias</h2>
@@ -31,85 +38,86 @@
             <a href="index.html">
                 <button>
                     <i class="bi bi-house"></i>
-                     <h4>Home</h4>
+                    <h4>Home</h4>
                 </button>
             </a>
 
             <a href="bebidasQuentes.html">
                 <button>
-                     <i class="bi bi-cup-hot"></i>
-                     <h4>Bebidas Quentes</h4>
+                    <i class="bi bi-cup-hot"></i>
+                    <h4>Bebidas Quentes</h4>
                 </button>
             </a>
 
             <a href="comidas.html">
                 <button>
-                     <i class="bi bi-cookie"></i>
-                     <h4>Comidas</h4>
+                    <i class="bi bi-cookie"></i>
+                    <h4>Comidas</h4>
                 </button>
             </a>
 
         </div>
     </nav>
-    
-<div class="linha">
-    <h2>Bebidas Frias</h2>
-</div>
-<div class="box">
-<div class="card">
-        <img src="img/cafe gelado.png" alt="Copo de café gelado com cubos de gelo" class="img-prato">
-        <div class="text">
-            <h3 class="nome-prato">Café Gelado</h3>
-            <h5>descri ingr</h5>
-            <p class="desc-prod">R$ 11,00</p>
+
+    <div class="linha">
+        <h2>Bebidas Frias</h2>
+    </div>
+    <div class="box">
+        <div class="card">
+            <img src="img/cafe gelado.png" alt="Copo de café gelado com cubos de gelo" class="img-prato">
+            <div class="text">
+                <h3 class="nome-prato">Café Gelado</h3>
+                <h5 class="desc-prod" style="display: none;">descri ingr</h5>
+                <p class="valor-prod">R$ 11,00</p>
+            </div>
+            <button class="abrir">Adicionar</button>
         </div>
-        <button class="abrir">Adicionar</button>
+
+        <div class="card">
+            <img src="img/frape.png" alt="Copo alto de frappé com chantilly" class="img-prato">
+            <div class="text">
+                <h3 class="nome-prato">Frappé</h3>
+                <h5 class="desc-prod" style="display: none;">descri ingr</h5>
+                <p class="valor-prod">R$ 15,00</p>
+            </div>
+            <button class="abrir">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/suco de laranja.png" alt="Copo de suco de laranja natural com gelo" class="img-prato">
+            <div class="text">
+                <h3 class="nome-prato">Suco de Laranja</h3>
+                <h5 class="desc-prod" style="display: none;">descri ingr</h5>
+                <p class="valor-prod">R$ 8,00</p>
+            </div>
+            <button class="abrir">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/soda.png" alt="Copo de soda italiana de morango" class="img-prato">
+            <div class="text">
+                <h3 class="nome-prato">Soda Italiana</h3>
+                <h5 class="desc-prod" style="display: none;">descri ingr</h5>
+                <p class="valor-prod">R$ 10,00</p>
+            </div>
+            <button class="abrir">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/aguaTonica.png" alt="Copo de água tônica com limão e gelo" class="img-prato">
+            <div class="text">
+                <h3 class="nome-prato">Água Tônica</h3>
+                <h5 class="desc-prod" style="display: none;">descri ingr</h5>
+                <p class="valor-prod">R$ 6,00</p>
+            </div>
+            <button class="abrir">Adicionar</button>
+        </div>
     </div>
 
-    <div class="card">
-        <img src="img/frape.png" alt="Copo alto de frappé com chantilly" class="img-prato">
-        <div class="text">
-            <h3 class="nome-prato">Frappé</h3>
-            <h5>descri ingr</h5>
-            <p class="desc-prod">R$ 15,00</p>
-        </div>
-        <button class="abrir">Adicionar</button>
-    </div>
-
-    <div class="card">
-        <img src="img/suco de laranja.png" alt="Copo de suco de laranja natural com gelo" class="img-prato">
-        <div class="text">
-            <h3 class="nome-prato">Suco de Laranja</h3>
-            <h5>descri ingr</h5>
-            <p class="desc-prod">R$ 8,00</p>
-        </div>
-        <button class="abrir">Adicionar</button>
-    </div>
-
-    <div class="card">
-        <img src="img/soda.png" alt="Copo de soda italiana de morango" class="img-prato">
-        <div class="text">
-            <h3 class="nome-prato">Soda Italiana</h3>
-            <h5>descri ingr</h5>
-            <p class="desc-prod">R$ 10,00</p>
-        </div>
-        <button class="abrir">Adicionar</button>
-    </div>
-
-    <div class="card">
-        <img src="img/aguaTonica.png" alt="Copo de água tônica com limão e gelo" class="img-prato">
-        <div class="text">
-            <h3 class="nome-prato">Água Tônica</h3>
-            <h5>descri ingr</h5>
-            <p class="desc-prod">R$ 6,00</p>
-        </div>
-        <button class="abrir">Adicionar</button>
-    </div>
-</div>
-
-<footer>
-    <h3>©Shopp Café</h3>
-</footer>
-<script src="javascript.js"></script>
+    <footer>
+        <h3>©Shopp Café</h3>
+    </footer>
+    <script src="javascript.js"></script>
 </body>
+
 </html>

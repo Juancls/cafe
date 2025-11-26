@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F5F5DC;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ header{
     color: #4A2E1F;
 }
 
-header input{
+header input {
     margin-top: 10px;
     width: 70%;
     height: 7vh;
@@ -44,23 +44,23 @@ header input{
     transition: ease-in-out 600ms;
 }
 
-header input:focus{
+header input:focus {
     background-size: 0px;
     padding: 0 10px;
 }
 
-header input::placeholder{
+header input::placeholder {
     color: #A08479;
 }
 
-.carrinho{
+.carrinho {
     position: absolute;
     right: 0;
     top: 0;
     margin: 2vh;
 }
 
-.carrinho button{
+.carrinho button {
     width: 5vh;
     height: 5vh;
     border: none;
@@ -68,12 +68,13 @@ header input::placeholder{
     font-size: 2em;
     color: #4A2E1F;
 }
-nav{
+
+nav {
     padding: 0 30px;
     margin: 5vh 0;
 }
 
-nav .dividir{
+nav .dividir {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -81,12 +82,12 @@ nav .dividir{
     height: fit-content;
 }
 
-nav h2{
+nav h2 {
     color: #4A2E1F;
     margin: 3vh 0;
 }
 
-nav .dividir a{
+nav .dividir a {
     width: 15vh;
     height: 10vh;
     background-color: #68564b;
@@ -98,18 +99,18 @@ nav .dividir a{
     text-decoration: none;
 }
 
-nav .dividir a button{
+nav .dividir a button {
     background-color: transparent;
     border: none;
     color: white;
 }
 
-nav .dividir a button i{
+nav .dividir a button i {
     font-size: 1.8em;
 }
 
 
-.box{
+.box {
     width: 100%;
     height: 55vh;
     display: flex;
@@ -123,7 +124,7 @@ nav .dividir a button i{
     overflow-x: auto;
 }
 
-.box h2{
+.box h2 {
     position: relative;
     justify-self: left;
     align-self: flex-start;
@@ -131,7 +132,7 @@ nav .dividir a button i{
     margin: 0 0 0 5vh;
 }
 
-.linha{
+.linha {
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -139,12 +140,12 @@ nav .dividir a button i{
     padding: 0 4vh;
 }
 
-.linha h2{
+.linha h2 {
     color: #4A2E1F;
 }
 
 
-.card{
+.card {
     background-color: #a084793a;
     width: 90%;
     height: 15vh;
@@ -160,7 +161,7 @@ nav .dividir a button i{
     border-radius: 20px;
 }
 
-.card button{
+.card button {
     border: none;
     background-color: transparent;
     color: #A08479;
@@ -168,11 +169,11 @@ nav .dividir a button i{
     font-size: 1em;
 }
 
-.card button:hover{
+.card button:hover {
     color: #4A2E1F;
 }
 
-.card .text{
+.card .text {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -181,26 +182,28 @@ nav .dividir a button i{
     padding: 0 15px;
 }
 
-.card .text h3{
+.card .text h3 {
     color: #4A2E1F;
     font-size: 1.1em;
 }
-.card .text p{
+
+.card .text p {
     color: #A08479;
 }
-.card .text h3+p{
+
+.card .text h3+p {
     text-align: justify;
 }
 
-.card .text h5{
-    color:#68564b;
+.card .text h5 {
+    color: #68564b;
     font-family: "Inter", sans-serif;
     font-size: 0.5em;
     display: none;
 }
 
 
-.card img{
+.card img {
     width: 12vh;
     height: 12vh;
     background-size: cover;
@@ -212,12 +215,12 @@ nav .dividir a button i{
     overflow: hidden;
 }
 
-dialog::backdrop{
+dialog::backdrop {
     background-color: rgb(0, 0, 0);
     transition: background-color 0.3s ease-out;
 }
 
-dialog{
+dialog {
     position: relative;
     align-self: center;
     justify-self: center;
@@ -242,35 +245,40 @@ dialog{
 }
 
 dialog[open] {
-    opacity: 1; 
+    opacity: 1;
     transform: translateY(0) scale(1);
     animation: fadeInScale 0.3s ease-out forwards;
 }
+
 @keyframes fadeInScale {
     from {
         opacity: 0;
         transform: translateY(20px) scale(0.95);
     }
+
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
 }
+
 dialog[open]::backdrop {
     background-color: rgba(0, 0, 0, 0.773);
-    animation: fadeInBackdrop 0.3s ease-out forwards; 
+    animation: fadeInBackdrop 0.3s ease-out forwards;
 }
+
 /* Keyframes para a animação do backdrop */
 @keyframes fadeInBackdrop {
     from {
         background-color: rgba(0, 0, 0, 0.0);
     }
+
     to {
         background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
-dialog button{
+dialog button {
     width: 30vh;
     height: 30px;
     border: none;
@@ -281,12 +289,12 @@ dialog button{
     bottom: 3vh;
 
     font-size: 1em;
-    font-weight: 300;   
+    font-weight: 300;
     font-family: "Inter", sans-serif;
     box-shadow: -2px 3px 5px #4A2E1F;
 }
 
-dialog .btnFechar{
+dialog .btnFechar {
     position: absolute;
     top: 2vh;
     right: 2vh;
@@ -300,18 +308,18 @@ dialog .btnFechar{
     font-weight: 300;
 }
 
-dialog img{
+dialog img {
     width: 20vh;
     height: 20vh;
     border-radius: 50%;
 }
 
-dialog h3{
+dialog h3 {
     margin: 2vh 0;
     color: white;
 }
 
-dialog input[type="number"]{
+dialog input[type="number"] {
     width: 30%;
     height: 5vh;
     text-align: center;
@@ -320,11 +328,11 @@ dialog input[type="number"]{
     margin: 2vh;
 }
 
-dialog input[type="number"]:focus{
+dialog input[type="number"]:focus {
     border: solid 2px #4A2E1F;
 }
 
-dialog input[type="text"]{
+dialog input[type="text"] {
     width: 90%;
     height: 15vh;
     margin: 2vh;
@@ -333,7 +341,7 @@ dialog input[type="text"]{
     text-align: center;
 }
 
-footer{
+footer {
     position: relative;
     bottom: 0;
     width: 100%;
@@ -343,7 +351,6 @@ footer{
     margin: 0;
 }
 
-footer h3{
+footer h3 {
     color: #68564b;
 }
-
